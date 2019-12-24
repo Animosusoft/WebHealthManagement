@@ -8,13 +8,13 @@ Use your best judgment, and feel  free to propose changes to this document in a 
 
 ## Table Of Contents
 
-[Code of Conduct](#code-of-conduct)
-[What should I know before I get started?](#what-should-i-know-before-i-get-started)
-[How Can I Contribute?](#how-can-i-contribute)
+- [Code of Conduct](#code-of-conduct)
+- [What should I know before I get started?](#what-should-i-know-before-i-get-started)
+- [How Can I Contribute?](#how-can-i-contribute)
     * [Reporting Bugs](#reporting-bugs)
     * [Pull Requests](#pull-requests)
     * [How to Submit a good bug report](#how-do-i-submit-a-good-bug-report)
-[Styleguides](#styleguides)
+- [Styleguides](#styleguides)
        * [Git Commit Messages](#git-commit-messages)
        * [JavaScript Styleguide](#javascript-styleguide)
 
