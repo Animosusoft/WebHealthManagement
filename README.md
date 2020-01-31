@@ -213,6 +213,8 @@ ____When Done installing Python3.7 it is recommended that for your python Django
 
 - It makes testing of different versions of python projects , libraries and modules easy.
 
+**[Back to top](#table-of-contents)**
+
 ## Creating a virtual environment for your django project
 
 _On linux you might have to install pythom3-venv_
@@ -286,7 +288,7 @@ Visit this url <http://127.0.0.1:8000/> in your Web browser to see the app. Modi
 
 ![vue with vuetify interface in my browser](https://github.com/Animosusoft/WebHealthManagement/blob/master/healthmasys.coms/images/Django_scaffold_project.png)
 
-
+**[Back to top](#table-of-contents)**
 
 __`For the Vue Project`__
 
@@ -424,7 +426,7 @@ This project uses [Semantic Versioning](http://semver.org/). For a list of avail
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).  
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/Animosusoft/WebHealthManagement/tag).  
 
 
 <!-- # Authors
@@ -453,7 +455,7 @@ This project is licensed under the MIT License - see [LICENSE.md](LICENSE.md) fi
 
 Copyright (c) 2020 Animosusoft
 
-This project is licensed under the GPL-3.0 License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the GPL-3.0 License - see the [LICENSE.md](LICENSE) file for details
 
 **[Back to top](#table-of-contents)**
 
