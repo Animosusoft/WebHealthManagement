@@ -53,7 +53,7 @@ various patients that do need it
 - [How to Get Help](#how-to-get-help)
   <!-- - [Running the tests](#running-the-tests)
     - [Break down into end to end tests](#break-down-into-end-to-end-tests)
-    - [And coding style tests](#and-coding-style-tests) 
+    - [And coding style tests](#and-coding-style-tests)
   - [Deployment](#deployment)
   - [Built With](#built-with)  -->
   - [Contributing](#contributing)
@@ -209,7 +209,11 @@ __`Python Frameworks and Libraries needed`__
 
 - djangorestframework & django-rest-framework-mongoengine
 
+<<<<<<< HEAD
 - djano-mongoengine
+=======
+- django-mongoengine
+>>>>>>> Initial User Interface for healthmasys.com
 
 ____When Done installing Python3.7 it is recommended that for your python Django
 project development you create a virtual environment____
