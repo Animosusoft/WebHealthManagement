@@ -11,6 +11,9 @@
 
 A web based health management system that will be used for the administration of a Hospital or Clinic . It will aid in alliviate a lot of the paper work done at Hospitals that waste a lot of time and delay the ministring of health care to the various patients that do need it
 
+
+> CheckOut the Plan and Overview of the [Web Health Management System](https://gist.github.com/Ultra-Code/f83ad84e5c907352dccec467501f3e04)
+
 <!-- ## Table of Contents
 --
 - [WebHealthManagement](#webhealthmanagement)
