@@ -15,7 +15,6 @@ import os
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
@@ -26,7 +25,6 @@ SECRET_KEY = '-9i!i6_-zdqo7s8@-j+1sjp%s**_+fwr=j0kfgh+uh(w$*#2hc'
 DEBUG = True
 
 ALLOWED_HOSTS = []
-
 
 # Application definition
 
@@ -69,17 +67,15 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'djangobackend.wsgi.application'
 
-
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
 # DATABASES = {
-    # 'default': {
-        # 'ENGINE': 'django.db.backends.sqlite3',
-        # 'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    # }
+# 'default': {
+# 'ENGINE': 'django.db.backends.sqlite3',
+# 'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
 # }
-
+# }
 """
 LOGGING = {
     'version': 1,
@@ -135,56 +131,59 @@ LOGGING = {
 }
 """
 DATABASES = {
-        'default': {
-            'ENGINE': 'djongo',
-            'ENFORCE_SCHEMA': True,
-            'LOGGING': {
-                'version': 1,
-                'disable_existing_loggers': False,
-                'loggers': {
-                    'djongo': {
-                        'level': 'DEBUG',
-                        'propogate': False,
-                        'handlers': ['console']
-                    }
-                },
-                'handlers': {
-                    'console': {
-                        'class': 'logging.StreamHandler',
-                        'level': 'DEBUG'
-                    }
+    'default': {
+        'ENGINE': 'djongo',
+        'ENFORCE_SCHEMA': True,
+        'LOGGING': {
+            'version': 1,
+            'disable_existing_loggers': False,
+            'loggers': {
+                'djongo': {
+                    'level': 'DEBUG',
+                    'propogate': False,
+                    'handlers': ['console']
                 }
             },
-            'NAME': 'healthmasys_db',
-            'CLIENT': {
-                'host': '127.0.0.1',
-                'port': 27017,
-                'username': 'healthmasys',
-                'password': 'healthmasysadmin',
-                'authSource': 'healthmasys_db',
-                'authMechanism': 'SCRAM-SHA-1'
+            'handlers': {
+                'console': {
+                    'class': 'logging.StreamHandler',
+                    'level': 'DEBUG'
+                }
             }
+        },
+        'NAME': 'healthmasys_db',
+        'CLIENT': {
+            'host': '127.0.0.1',
+            'port': 27017,
+            'username': 'healthmasys',
+            'password': 'healthmasysadmin',
+            'authSource': 'healthmasys_db',
+            'authMechanism': 'SCRAM-SHA-1'
         }
     }
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
 
 AUTH_PASSWORD_VALIDATORS = [
     {
-        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
+        'NAME':
+        'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
+        'NAME':
+        'django.contrib.auth.password_validation.MinimumLengthValidator',
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',
+        'NAME':
+        'django.contrib.auth.password_validation.CommonPasswordValidator',
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
+        'NAME':
+        'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
-
 
 # Internationalization
 # https://docs.djangoproject.com/en/2.2/topics/i18n/
@@ -198,7 +197,6 @@ USE_I18N = True
 USE_L10N = True
 
 USE_TZ = True
-
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/

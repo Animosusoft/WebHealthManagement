@@ -9,7 +9,7 @@
 __pycache__
 
 #python virtual environment directory and files
-venv
+.venv
 
 #vim and coc.nvim configuration files
 .vim
