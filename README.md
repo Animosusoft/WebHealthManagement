@@ -207,8 +207,6 @@ __`Python Frameworks and Libraries needed`__
 
 - djongo
 
-- djangorestframework & django-rest-framework-mongoengine
-
 ____When Done installing Python3.7 it is recommended that for your python Django
 project development you create a virtual environment____
 
