@@ -323,7 +323,7 @@ In your shell execute
 
 Open __localhost:8080__ url in your browser to see the vue user interface
 
-![vue with vuetify interface in my browser](https://github.com/Animosusoft/WebHealthManagement/blob/master/healthmasys.com/images/vue_with_vuetify.png)
+![vue with vuetify interface in my browser](https://github.com/Animosusoft/WebHealthManagement/blob/master/healthmasys.com/images/Current_State.png)
 
 <!--
 ## Running Tests
