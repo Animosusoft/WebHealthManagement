@@ -9,10 +9,9 @@
 * -->
 
 A web based health management system that will be used for the administration of
-a Hospital or Clinic.It will aid in alliviate a lot of the paper work done at
-Hospitals that waste a lot of time and delay the ministring of health care to the
+a Hospital or Clinic.It will aid in alliviating a lot of the paper work done at
+Hospitals that waste a lot of time and delay the ministering of health care to the
 various patients that do need it
-
 
 > CheckOut the Plan and Overview of the [Web Health Management System](https://gist.github.com/Ultra-Code/f83ad84e5c907352dccec467501f3e04)
 
@@ -80,8 +79,6 @@ INNOVATION HUB__
 This system allows it's administrator to Login to verify credentials of patients
 ,register new patients and speed up some of the manual processes involved in the
 process of health care delivery.
-
-![A Sample Image Of Our Login Screen](https://i0.wp.com/wp.laravel-news.com/wp-content/uploads/2019/05/vue-modal.png?resize=2200%2C1125)
 
 <!--
 ```
