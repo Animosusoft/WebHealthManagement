@@ -13,6 +13,9 @@ a Hospital or Clinic.It will aid in alliviate a lot of the paper work done at
 Hospitals that waste a lot of time and delay the ministring of health care to the
 various patients that do need it
 
+
+> CheckOut the Plan and Overview of the [Web Health Management System](https://gist.github.com/Ultra-Code/f83ad84e5c907352dccec467501f3e04)
+
 <!-- ## Table of Contents
 - [WebHealthManagement](#webhealthmanagement)
   - [Table of Contents](#table-of-contents)
@@ -299,7 +302,7 @@ Visit this url __127.0.0.1:8000__ in your Web browser to see the app.
 Modify some of the application file and the developmental server will be hot reloded
 and you will see the changes as you work on the project .
 
-![vue with vuetify interface in my browser](https://github.com/Animosusoft/WebHealthManagement/blob/master/healthmasys.coms/images/Django_scaffold_project.png)
+![Django backend](https://github.com/Animosusoft/WebHealthManagement/blob/master/healthmasys.com/images/Django_scaffold_project.png)
 
 **[Back to top](#table-of-contents)**
 
@@ -320,7 +323,7 @@ In your shell execute
 
 Open __localhost:8080__ url in your browser to see the vue user interface
 
-![vue with vuetify interface in my browser](https://github.com/Animosusoft/WebHealthManagement/blob/master/healthmasys.coms/images/vue_with_vuetify.png)
+![vue with vuetify interface in my browser](./healthmasys.com/images/Current_State.png)
 
 <!--
 ## Running Tests
